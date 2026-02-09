@@ -33,21 +33,21 @@ export default function Home() {
         <ServiceCard
           title="💆 Terapi Cape"
           desc="Pijat tangan 15 menit"
-          href="https://wa.me/6281312292782"
+          href="/terapi"
           external
         />
 
         <ServiceCard
           title="🏍️ Service Motor"
           desc="Service motor panggilan"
-          href="https://wa.me/6281312292782"
+          href="/service-motor"
           external
         />
 
         <ServiceCard
           title="🎬 Nonton Bareng"
           desc="Semua genre termasuk anime"
-          href="https://linktr.ee/nobar_rizvanda"
+          href="/nonton-bareng"
           external
         />
 
@@ -55,6 +55,12 @@ export default function Home() {
           title="🍱 Makan Bergizi Gratis"
           desc="Menu sehat harian tanpa biaya"
           href="/menu-makan"
+        />
+
+        <ServiceCard
+          title="🧠 Layanan Psikis"
+          desc="Curhat & refleksi, dijawab AI"
+          href="/psikis"
         />
       </section>
 
